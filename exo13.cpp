@@ -50,7 +50,7 @@ int main()
         cout << "Voulez Vous continuer a jouer et essayer une autre fonction (Tapez 1 pour oui et 0 pour Non):";
         cin >> continuer;
     } while (continuer != 0);
-    cout << "Aurevoir A bientot";
+    cout << "Aurevoir";
     return 0;
 }
 
