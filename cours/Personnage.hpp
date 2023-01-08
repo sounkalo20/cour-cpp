@@ -3,8 +3,8 @@
 
 #include <string>
 #include "Arme.hpp"
-
-class Personnage
+#include "Mort.hpp"
+class Personnage:Mort
 {
     public:
 
@@ -20,7 +20,7 @@ class Personnage
     //Methode constante(qui ne modifie aucun attribut)
     bool estVivant() const;
     void afficherEtat()const;
-
+    void demanderPromo();
     private:
 
     int m_vie;
