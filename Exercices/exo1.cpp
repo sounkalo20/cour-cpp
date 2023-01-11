@@ -9,7 +9,7 @@ int main()
 
     while (nombre <= 500)
     {
-        if ((nombre % 3 == 0) || (nombre % 5 == 0))
+        if ((nombre % 3 == 0) && (nombre % 5 == 0))
         {
             cout << nombre << endl;
         }
